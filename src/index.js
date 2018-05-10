@@ -17,5 +17,4 @@ const render = () => {
 // because need to stub it out in tests.
 export const renderer = { render };
 
-store.dispatch({ type: '@@init' });
-
+store.dispatch({ type: '@@INIT' });
